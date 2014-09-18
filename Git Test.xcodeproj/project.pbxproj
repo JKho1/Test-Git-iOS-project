@@ -21,6 +21,7 @@
 		42A2259619C96402006BC79A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A2257819C96401006BC79A /* UIKit.framework */; };
 		42A2259E19C96402006BC79A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42A2259C19C96402006BC79A /* InfoPlist.strings */; };
 		42A225A019C96402006BC79A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A2259F19C96402006BC79A /* Git_TestTests.m */; };
+		42A225AB19CAB227006BC79A /* JKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A225AA19CAB227006BC79A /* JKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		42A2259B19C96402006BC79A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		42A2259D19C96402006BC79A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42A2259F19C96402006BC79A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		42A225A919CAB227006BC79A /* JKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTest.h; sourceTree = "<group>"; };
+		42A225AA19CAB227006BC79A /* JKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				42A2258619C96401006BC79A /* Main.storyboard */,
 				42A2258919C96401006BC79A /* JKViewController.h */,
 				42A2258A19C96401006BC79A /* JKViewController.m */,
+				42A225A919CAB227006BC79A /* JKTest.h */,
+				42A225AA19CAB227006BC79A /* JKTest.m */,
 				42A2258C19C96401006BC79A /* Images.xcassets */,
 				42A2257B19C96401006BC79A /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A225AB19CAB227006BC79A /* JKTest.m in Sources */,
 				42A2258119C96401006BC79A /* main.m in Sources */,
 				42A2258B19C96401006BC79A /* JKViewController.m in Sources */,
 				42A2258519C96401006BC79A /* JKAppDelegate.m in Sources */,
@@ -457,6 +463,7 @@
 				42A225A519C96402006BC79A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A225A619C96402006BC79A /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				42A225A819C96402006BC79A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
